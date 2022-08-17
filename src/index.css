@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eeeeee;
+}
+body,html{
+  overflow-x: hidden !important;
+}
+code {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.body_cart{
+  background-color: white;
+}

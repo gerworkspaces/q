@@ -1,0 +1,15 @@
+.book .slogan{
+  background-color:#eeeeee ;
+  border-radius: 5px;
+  color: #333333;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px 0px 30px;
+  padding: 60px;
+  text-align: center;
+}
+.bookPDF{
+  text-align: center;
+  width:640px;
+  height:480px;
+}

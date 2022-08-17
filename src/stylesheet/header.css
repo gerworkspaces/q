@@ -1,0 +1,402 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.navbar {
+  background-color: #fff ;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.navbar-brand {
+  color: black ;
+  font-weight: bold;
+}
+
+.header .navbar .collapse .text-navbar .nav-link {
+  color: black ;
+  font-size: 22px;
+  padding: 7px 5px;
+  border-radius: 3px;
+  position: relative;
+  z-index: 9999;
+  font-weight: 300;
+  margin: 0 10px;
+  color: inherit;
+  text-decoration: none;
+  background:
+    linear-gradient(
+      to right,
+      rgb(243, 245, 245),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.header .navbar .collapse .text-navbar .nav-link:hover {
+  background-size: 0 3px, 100% 3px;
+  
+}
+.header .navbar .collapse .text-navbar .nav-link .active{
+  color: black ;
+  font-size: 25px;
+
+}
+
+/* COVER */
+.cover {
+  background-image: url('../img/download.jpg');
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.cover__content {
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translateY(-50%);
+
+
+}
+
+.cover .cover__content h1 {
+  
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+
+
+/* INTRO */
+.intro {
+  background: linear-gradient(-45deg, #ec5252, #6e1a52);
+  padding: 20px;
+
+}
+
+.intro .intro__content {
+  width: 78%;
+  margin: 0 auto;
+}
+
+.intro .intro__content .intro__items {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.intro .intro__content .intro__icon {
+  font-size: 50px;
+  color: #fff;
+  margin-right: 25px;
+}
+
+.intro .intro__content .intro__details p {
+  margin-bottom: 0;
+}
+
+.intro .intro__content p:first-child {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.intro .intro__content p:last-child {
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/* BANNER */
+.banner {
+
+  background: url('../img/opened-book-4278.svg') 0/30% no-repeat, linear-gradient(61deg, #6e1a52, #76c5d6 41%);
+  background-blend-mode: overlay;
+  height: 325px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.banner p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.banner button {
+  margin: 10px 0;
+}
+
+/* CART */
+.row {
+  padding-top: 10px;
+}
+
+
+
+
+
+
+/* CMM */
+.students {
+  padding: 32px 0;
+}
+
+.students .students__content {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.students .students__content h2 {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+  height: 300px;
+  margin-right: 1px;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+
+  color: #29303b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #686f7a;
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.card__stars {
+  padding: 5px 0;
+}
+
+.card__stars i {
+  color: #F4C150;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.card__stars .card__rate {
+  color: #686f7a;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.card__stars .card__total {
+  color: #686f7a;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.card__stars .card__price {
+  text-align: right;
+  padding: 4px 0;
+}
+
+.card__stars .card__price b {
+  font-size: 15px;
+  color: black;
+}
+
+.card__stars .card__price span:first-child {
+  color: #686f7a;
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+.card__stars .card__price span:last-child {
+  color: #29303b;
+  font-size: 15px;
+  font-weight: 600;
+
+}
+
+.card--feedback {
+  height: 280px;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-body .card__top {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.card-body .card__top .card__avatar {
+
+  margin-bottom: 15px;
+}
+
+.card-body .card__top .card__avatar img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.card-body .card__top .card__name  {
+  margin-bottom: 0;
+}
+.card-body .card__top .card-text  {
+  color: #29303b;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+ /* icon
+ .icon-wrapper{
+  width: 50px;
+  height: 50px;
+  position: relative;
+ }
+ .icon-wrapper::after{
+  content: attr(cartItems);
+  width: 20px;
+  height: 20px;
+  background-color: #d32b2b;
+  color: #fff;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  opacity: 0;
+  transform: translateY(3px);
+  
+ }
+ .icon-wrapper:hover::after{
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity .25s;
+  transform: .25s;
+ }
+ .bell-icon{
+  max-width: 100%;
+ }
+ 
+ @keyframes shake{
+  10%{
+  transform: rotate(15deg);
+  }
+  20%{
+    transform: rotate(-15deg);
+  }
+  30%{
+    transform: rotate(15deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+ } */
+/* OwlCarousel */
+/* 
+<div class="card">
+<img src="./img/kh1.jpg" class="card-img-top" alt="kh1">
+<div class="card-body">
+    <h5 class="card-title">The Ultimate MySQL Bootcamp: Go from SQL Beginner to
+        Expert</h5>
+    <p class="card-text">Colt Steele Ian Schoonover</p>
+    <div class="card__stars">
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </span>
+        <span class="card__rate">4.6</span>
+        <span class="card__total">(11.597)</span>
+    </div>
+    <div class="card__price">
+        <span>$179.99</span>
+        <span>$9.99</span>
+    </div>
+</div>
+</div>
+
+
+<div className="cart col-md-4">
+                  <div className="m-2 p-1 product position-relative">
+                    <div className="product-content">
+                     
+                      <div className="text-center">
+                        <img
+                          src={product.imageURL}
+                          alt=""
+                          className="product-img"
+                        />
+                      </div>
+                      <p className="productNameBook">{product.name}</p>
+                      <div className="card__stars">
+                                            <span>
+                                            <FaStar />
+                                            <FaStar />
+                                            <FaStar />
+                                            <FaStar />
+                                            <FaStarHalf />
+                                            </span>
+                                            <span className="card__rate">4.6</span>
+                                            <span className="card__total">(11.597)</span>
+                                        </div>
+                      <h4>{product.price} $</h4>
+                      
+                    </div>
+                    <div className="product-actions">
+                      <h2>{product.price} $</h2>
+                      <div className="d-flex">
+                        <button
+                          className="button--red mx-2"
+                          onClick={() => addToCart(product)}
+                        >
+                          ADD TO CART
+                        </button>
+                        <button className="button--red"
+                          onClick={() => {
+                            // chuyen toi trong Productinfo
+                            navigate(`/productinfo/${product.id}`);
+                          }}
+                        >
+                          ViEW
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div> */

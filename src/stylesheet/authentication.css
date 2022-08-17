@@ -1,0 +1,73 @@
+.form-control{
+  box-shadow: none;
+}
+.form-control:focus{
+  margin-top:15px ;
+  box-shadow: none ;
+}
+input{
+
+  margin-top: 15px ;
+}
+.register-form{
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  z-index: 999 ;
+}
+.register-parent{
+  height: 100vh;
+  background-color: aliceblue;
+}
+.register-parent .row{
+  height: 100vh;
+  align-items: center;
+  z-index: 999 ;
+}
+.register-top{
+  height: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #2d41b6;
+  z-index: 0 ;
+}
+.register_btn{
+  background-color: #ec5252;
+}
+.z1{
+  z-index:1 ;
+}
+
+/* //login */
+.login-form{
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  z-index: 999 ;
+}
+.login-parent{
+  height: 100vh;
+  background-color: aliceblue;
+}
+.login-parent .row{
+  height: 100vh;
+  align-items: center;
+  z-index: 999 ;
+}
+.login_btn{
+  background-color: #ec5252;
+}
+.login-bottom{
+  height: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2d41b6;
+  z-index: 0 ;
+}
+.z1{
+  z-index:1 ;
+}
